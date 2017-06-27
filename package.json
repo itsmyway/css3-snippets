@@ -1,0 +1,29 @@
+{
+  "name": "css3-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmyway/css3-snippets.git"
+  },
+  "author": "anupriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmyway/css3-snippets/issues"
+  },
+  "homepage": "https://github.com/itsmyway/css3-snippets#readme"
+}
