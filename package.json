@@ -3,18 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "css-loader": "^0.28.4",
-    "sass-loader": "^6.0.6",
-    "webpack": "^3.0.0"
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.4",
-    "sass-loader": "^6.0.6",
-    "webpack": "^3.0.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "build": "webpack",
+    "dev": "webpack-dev-server --inline "
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.1.0-beta.8"
   },
   "repository": {
     "type": "git",
